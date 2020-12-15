@@ -1,0 +1,11 @@
+server:
+  port: 8082
+
+logging:
+  level:
+    com:
+      example: DEBUG
+
+job:
+  # 2020-03-27 02:01:00 每天2点
+  cron: 0 25 18 * * ?
